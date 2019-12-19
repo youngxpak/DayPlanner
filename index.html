@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/1317498db5.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!--MyCSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+   
+    <!--Moment.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/af.js"/>
+
+    <title>Day Planner</title> 
+
+</head>
+
+<body>
+    <header class="jumbotron">
+        <h1 class="display-3">Work Day Scheduler</h1>
+        <p class="lead">A simple calendar app for scheduling your work day</p>
+        <p id="currentDay" class="lead"></p>
+    </header>
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-2" id="column">Time</div>
+          <div class="col-8">Events</div>
+          <div class="col-2" id="add-event-buttons"></div>
+        </div>
+    
+        <div class="row" data-value='9'>
+          <div class="col-2" id="hour">9:00</div>
+          <div class="col-8"><input type='text' id='description' data-value='9'></div>
+          <div class="col-2" id="add-event-buttons"><button class="saveBtn" data-value='9'>Save</button></div>
+        </div>
+
+        <div class="row" data-value='10'>
+          <div class="col-2" id="hour">10:00</div>
+          <div class="col-8"><input type='text' id='description' data-value='10'></div>
+          <div class="col-2" id="add-event-buttons"><button class="saveBtn" data-value='10'>Save</button></div>
+        </div>
+
+        <div class="row">
+          <div class="col-2" id="hour">11:00</div>
+          <div class="col-8"><input type='text' id='description' data-value='11'></div>
+          <div class="col-2" id="add-event-buttons"><button class="saveBtn" data-value='11'>Save</button></div>
+        </div>
+
+        <div class="row" data-value='12'>
+          <div class="col-2" id="hour">12:00</div>
+          <div class="col-8"><input type='text' id='description' data-value='12'></div>
+          <div class="col-2" id="add-event-buttons"><button class="saveBtn" data-value='12'>Save</button></div>
+        </div>
+
+        <div class="row" data-value='13'>
+          <div class="col-2" id="hour">13:00</div>
+          <div class="col-8"><input type='text' id='description' data-value='13'></div>
+          <div class="col-2" id="add-event-buttons"><button class="saveBtn" data-value='13'>Save</button></div>
+        </div>
+
+        <div class="row" data-value='14'>
+          <div class="col-2" id="hour">14:00</div>
+          <div class="col-8"><input type='text' id='description' data-value='14'></div>
+          <div class="col-2" id="add-event-buttons"><button class="saveBtn" data-value='14'>Save</button></div>
+        </div>
+
+        <div class="row" data-value='15'>
+          <div class="col-2" id="hour">15:00</div>
+          <div class="col-8"><input type='text' id='description' data-value='15'></div>
+          <div class="col-2" id="add-event-buttons"><button class="saveBtn" data-value='15'>Save</button></div>
+        </div>
+
+        <div class="row" data-value='16'>
+          <div class="col-2" id="hour">16:00</div>
+          <div class="col-8"><input type='text' id='description' data-value='16'></div>
+          <div class="col-2" id="add-event-buttons"><button class="saveBtn" data-value='16'>Save</button></div>
+        </div>
+
+        <div class="row" data-value='17'>
+          <div class="col-2" id="hour">17:00</div>
+          <div class="col-8"><input type='text' id='description' data-value='17'></div>
+          <div class="col-2" id="add-event-buttons"><button class="saveBtn" data-value='17'>Save</button></div>
+        </div>
+    </div>
+</body>
+
+</html>
